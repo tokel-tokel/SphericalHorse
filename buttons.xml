@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <AndroidLayout
     orientation = "vertical">
+    <Button
+        name = "Stepan's Button"
+        color = "gray"/>
 </AndroidLayout>
