@@ -1,0 +1,25 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<recipe
+    name = "sushi">
+    <step
+        id = "1"
+        start = "true"
+        text = "boil the rice"/>
+    <step
+        id = "2"
+        start = "true"
+        text = "slice the fish"/>
+    <step 
+        id = "3"
+        start = "true"
+        text = "slice the nori"/>
+    <step
+        id = "4"
+        link_step = "2 3"
+        text = "pack the fish into the nori"/>
+    <step
+        id = "5"
+        link_step = "1 4"
+        text = "pack the nori with fish into the rice"
+        finish = "true"/>
+</recipe>
