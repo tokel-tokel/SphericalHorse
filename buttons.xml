@@ -2,6 +2,9 @@
 <AndroidLayout
     orientation = "vertical">
     <Button
+        name = "Stepan's Button"
+        color = "gray"/>
+    <Button
         name = "Savva's button"
         color = "blue"/>
     <Button
